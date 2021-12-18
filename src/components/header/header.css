@@ -1,0 +1,79 @@
+.header {
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.left_header {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.star_logo {
+  margin: 20px 40px;
+  cursor: pointer;
+  object-fit: contain;
+  margin-right: 30px;
+}
+
+.menu_item {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+}
+
+li {
+  list-style: none;
+  font-weight: 700;
+  display: inline;
+  margin-left: 25px;
+  font-size: 1.4ch;
+}
+.right_header {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right_items {
+  margin-left: 0 40px;
+}
+
+button {
+  padding: 9px;
+  border-radius: 40px;
+  background-color: #fff;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 8px 18px;
+}
+
+.bt-one {
+  border-width: 1px;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
+.bt-two {
+  background-color: black;
+  color: #fff;
+  border: none;
+}

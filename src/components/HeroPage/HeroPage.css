@@ -1,0 +1,9 @@
+.HeroPage__image {
+  height: 900px;
+  background-color: red;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
